@@ -22,8 +22,12 @@
   <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
   <!-- Custom styles for this template -->
-  <link href="css/new-age.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 	
+  <!-- Pricing styling file -->
+  <link href="css/pricing.css" rel="stylesheet">	
+
+  <!-- Contact form styling -->
   <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
   <!--===============================================================================================-->
@@ -43,8 +47,8 @@
   <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
   <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/contact-form-util.css">
+	<link rel="stylesheet" type="text/css" href="css/contact-form.css">
   <!--===============================================================================================-->
 
 </head>
@@ -67,6 +71,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#features">Features</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#pricing">Pricing</a>
+          </li>			
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
@@ -176,24 +183,68 @@
       </div>
     </div>
   </section>
-
-<!--
-  <section class="cta">
-    <div class="cta-content">
-      <div class="container">
-        <h2>Stop waiting.<br>Start building.</h2>
-        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
-      </div>
+	
+	
+  <section class="pricing bg-primary text-center" id="pricing">
+    <div class="container h-100">
+      <div class="section-heading text-center">
+        <h2>Pricing</h2>
+        <hr>
+      </div>		
+		<div class="row">
+		  <!-- Free Tier -->
+		  <div class="col-lg-6">
+			<div class="card mb-5 mb-lg-0">
+			  <div class="card-body">
+				<h5 class="card-title text-muted text-uppercase text-center">Free</h5>
+				<h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+				<hr>
+				<ul class="fa-ul">
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+				  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited Private Projects</li>
+				  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated Phone Support</li>
+				  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain</li>
+				  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
+				</ul>
+				<a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+			  </div>
+			</div>
+		  </div>
+			
+		  <!-- Pro Tier -->
+		  <div class="col-lg-6">
+			<div class="card">
+			  <div class="card-body">
+				<h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+				<h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+				<hr>
+				<ul class="fa-ul">
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free Subdomains</li>
+				  <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
+				</ul>
+				<a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+			  </div>
+			</div>
+		  </div>
+		</div>
     </div>
-    <div class="overlay"></div>
   </section>
--->
-
-  <section class="contact bg-primary" id="contact">
-	<div class="section-heading text-center">
-		<h2>Contact Us</h2>
-		<hr>
-	</div>			  
+	
+  <section class="features" id="contact">
+    <div class="container h-100">
+      <div class="section-heading text-center">
+        <h2>Contact</h2>
+        <hr>
+      </div>
 	<div class="container-contact100">
 		<button class="contact100-btn-show">
 			<i class="fa fa-envelope-o" aria-hidden="true"></i>
@@ -206,7 +257,7 @@
 
 			<form class="contact100-form validate-form">
 				<span class="contact100-form-title">
-					Contact Us
+					Contact
 				</span>
 
 				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
@@ -238,7 +289,16 @@
 			</form>
 		</div>
 	</div>
+    </div>
   </section>
+	
+	
+	
+	
+	
+	
+	
+	
 
   <footer>
     <div class="container">
